@@ -56,7 +56,7 @@ The **categorical cross-entropy** loss function was used since this is a multi-c
 A batch size of **32** was used, which balances memory consumption and model training time. The model was trained for **50 epochs**. Early stopping was implemented to halt the training process if the validation loss stopped improving after several epochs.
 
 - **Batch Size**: `32`
-- **Epochs**: `50`
+- **Epochs**: `100`
 - **Early Stopping**: Enabled (with patience set to 5 epochs)
 
 ### 4. Learning Rate Scheduler
@@ -103,6 +103,14 @@ To further mitigate overfitting, regularization techniques such as dropout were 
    ```
 
 Follow the steps in the notebook to preprocess the data, train the model, and evaluate the results.
+
+---
+
+## Kaggle Project
+
+You can find the project notebook and related content on Kaggle via the following link:
+
+[Kaggle Project: Akbank Deep Learning Project - Fish Data Set](https://www.kaggle.com/code/kadircopur/akbank-deep-learning-project-fish-data-set)
 
 ---
 
